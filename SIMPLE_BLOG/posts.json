@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "My First Blog Post",
+      "content": "This is the content of my very first blog post. I'm excited to start this blogging journey!"
+    },
+    {
+      "id": 2,
+      "title": "Python and Flask: A Quick Introduction",
+      "content": "Flask is a lightweight web framework for Python. It's great for building simple APIs and web applications."
+    },
+    {
+      "id": 3,
+      "title": "Understanding JSON Data",
+      "content": "JSON (JavaScript Object Notation) is a popular data interchange format. It's easy for humans to read and write, and easy for machines to parse and generate."
+    }
+  ]

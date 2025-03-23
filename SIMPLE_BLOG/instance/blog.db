@@ -1,0 +1,10 @@
+CREATE TABLE post (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    created_at DATETIME
+);
+INSERT INTO post (title, content, created_at) VALUES ('My New Post', 'Post content...', '2023-10-27 10:00:00');
+SELECT * FROM post;
+UPDATE post SET title = 'Updated Title' WHERE id = 1;
+DELETE FROM post WHERE id = 1;
